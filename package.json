@@ -1,0 +1,23 @@
+{
+  "name": "subscribe-events",
+  "version": "1.0.0",
+  "description": "Uniswap event listener for Base",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "listen": "node --loader ts-node/esm scripts/listenSwapEvents.ts",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@uniswap/v3-core": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/node": "^20.10.4",
+    "hardhat": "^2.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
